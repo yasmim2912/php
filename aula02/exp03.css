@@ -1,27 +1,26 @@
 #div1{ 
-
-    background-color: aqua;
+    background-color: red;
     height: 200px;
     width: 600px; ;
 }
 
 #div2{
-
-    background-color: aqua;
+background-color: yellow;
     height: 300px;
      width: 600px;
 }
 
 #div3{
-    
-    background-color: aqua;
+
+    background-color: black;
     height: 250px;
     width: 590px;
 }
 
 #div4{
     
-    background-color: aquamarine;
+    background-color: green;
     height: 200px;
     width: 700px;
 }
+
