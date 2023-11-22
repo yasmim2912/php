@@ -1,0 +1,34 @@
+
+body{
+   background-color: darkgrey;
+}
+.box {
+    background-color: black;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "topo topo MR"
+                           "ML cont  MR  "
+                           "ML RO MR";
+  grid-auto-rows :50px 1fr 90px ;
+  grid-template-columns: 100px 1fr 200px;
+}
+.titulo{
+    background-color: aquamarine;
+  grid-area:topo ;
+}
+.menuL{
+    background-color:rgb(0, 217, 255);
+    grid-area: ML;}
+
+.conteudo {
+    background-color: aliceblue;
+    grid-area: cont;
+}
+.menuR{
+    background-color: rgb(0, 217, 255);
+    grid-area: MR;
+}
+.rodape{
+    background-color: brown;
+    grid-area:RO;
+}

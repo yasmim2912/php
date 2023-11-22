@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(250, 52, 191);
+}
+.box{
+    background-color:black;
+    height: 600px;
+    display:grid ;
+    grid-template-areas: "titulo introducao "
+                        "rodape  conteudo";
+ grid-template-rows: 200px 1fr;
+grid-template-columns: 300px 1fr;
+}
+.titulo{background-color: antiquewhite;
+grid-area: titulo;
+}
+.introducao{
+    background-color: aquamarine;
+    grid-area: introducao;
+}
+.conteudo{
+    background-color: aqua;
+    grid-area:conteudo ;
+}
+.rodape{
+    background-color: bisque;
+    grid-area:rodape ;
+}
