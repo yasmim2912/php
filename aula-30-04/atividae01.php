@@ -1,0 +1,4 @@
+<?php
+$aluno=array([nome])
+
+?>
