@@ -1,0 +1,35 @@
+body{ margin: 5%;
+    background-color: black;
+color:black;
+align-content: center;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif ;
+}
+h1{background-color: rgb(03, 36, 92);
+}
+h2{background-color: rgb(208, 91, 124);
+    
+}
+pre{
+    text-align: center;
+  background-color: aqua;
+  
+}
+  table, th, td {
+    align-items: center;
+        border: 1px solid;
+    
+ }
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color:black;
+  }
+  tr{
+   text-align: center;
+   background-color: bisque;
+   color: black;
+  }
